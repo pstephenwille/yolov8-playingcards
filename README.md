@@ -6,7 +6,8 @@
 
 ### Steps
 
-1. build the dockerfile: `docker build -t cuda-12-1:latest .`
+1. install nvidia-container-toolkit https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
+2. build the dockerfile: `docker build -t cuda-12-1:latest .`
 2. ``` 
     docker run \
     -p 8888:8888 \
@@ -18,6 +19,7 @@
     ```
 1. verify container is running on GPU:
     ``` 
+    python3
     import torch
     dev = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
      ```
