@@ -25,3 +25,7 @@
      ```
 1. check `localhost:8888`
 2. run the notebook
+
+
+### todo
+1. increase dataset to obtain >90% confidence in all cards
