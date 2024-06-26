@@ -287,7 +287,7 @@ plt.show()
 
 
 # Loading the best performing model
-model = YOLO('/runs/detect/yolov8n_custom1/weights/best.pt')
+model = YOLO('/runs/detect/yolov8n_custom1/weights/best-255.pt')
 
 # Evaluating the model on test dataset
 metrics = model.val(conf=0.25, split='test')
