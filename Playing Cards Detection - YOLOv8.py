@@ -103,7 +103,7 @@ yaml_path
 
 # %writefile "$yaml_path"
 
-# train: ./playing-cards-object-detection-dataset/train/images
+# train: ./playing-cards-object-detection-dataset/train/imageso
 # val: ./playing-cards-object-detection-dataset/val/images
 # test: ./playing-cards-object-detection-dataset/test/images
 

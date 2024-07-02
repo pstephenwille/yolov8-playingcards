@@ -7,5 +7,6 @@ jupyter lab \
 --no-browser \
 --allow-root \
 --NotebookApp.token='' \
---NotebookApp.password=''
+--NotebookApp.password='' \
+--trust=true
 

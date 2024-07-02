@@ -29,3 +29,8 @@
 
 ### todo
 1. increase dataset to obtain >90% confidence in all cards
+
+
+# Notes
+>ultralytics missing deps:
+'tf_keras', 'sng4onnx>=1.0.1', 'onnx_graphsurgeon>=0.3.26', 'onnx>=1.12.0', 'onnx2tf>1.17.5,<=1.22.3', 'onnxslim>=0.1.31', 'tflite_support', 'onnxruntime'
